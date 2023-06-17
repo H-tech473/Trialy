@@ -1,0 +1,19 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "C:/Users/LENOVO/OneDrive/Desktop/Course/Mine/part3/trial/node_modules/.bin/netlify-lambda serve src",
+    "build": "C:/Users/LENOVO/OneDrive/Desktop/Course/Mine/part3/trial/node_modules/.bin/netlify-lambda build src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
