@@ -11,7 +11,7 @@ const router = express.Router();
 
 // Define a route that responds with a JSON object when a GET request is made to the root path
 router.get("/", (req, res) => {
-  res.send("hello");
+  res.render("index");
 });
 
 // Use the router to handle requests to the `/.netlify/functions/api` path
